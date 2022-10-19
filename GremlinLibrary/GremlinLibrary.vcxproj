@@ -154,6 +154,9 @@
     <ClCompile Include="..\..\..\..\..\src\glad\src\glad.c" />
     <ClCompile Include="GremlinLibrary.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HelperFunctions.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
