@@ -15,24 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="GremlinLibrary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\OpenGL\src\glad.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\..\..\..\..\src\glad\src\glad.c">
+      <Filter>Resource Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ShaderClass.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="FragmentShader.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="VertexShader.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
   </ItemGroup>
 </Project>
